@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="AppThemeLight" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/imdb</item>
+        <item name="colorPrimaryDark">@color/imdb</item>
+        <item name="colorAccent">@color/imdb</item>
+        <item name="android:statusBarColor" tools:ignore="NewApi">@color/imdb</item>
+        <item name="android:navigationBarColor" tools:ignore="NewApi">@color/imdb</item>
+    </style>
+
+    <style name="progressBarBlue" parent="@style/AppThemeLight">
+        <item name="colorAccent">@color/black</item>
+    </style>
+
+</resources>

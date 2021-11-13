@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/main_appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ProgressBar
+            android:id="@+id/awv_progressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_2sdp"
+            android:theme="@style/progressBarBlue" />
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/imdb">
+
+
+        </androidx.appcompat.widget.Toolbar>
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+
+    <RelativeLayout
+        android:id="@+id/video_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.tuesda.walker.circlerefresh.CircleRefreshLayout
+            app:AniBackColor="@color/imdb"
+            app:AniForeColor="@color/white"
+            app:CircleSmaller="1"
+            android:id="@+id/refresh_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <com.sanoj.devildeveloper.enoughmovies.webview.AdvancedWebView
+                android:id="@+id/webView1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </com.tuesda.walker.circlerefresh.CircleRefreshLayout>
+
+
+        <Button
+            android:visibility="visible"
+            android:layout_width="@dimen/_125sdp"
+            android:layout_height="@dimen/_125sdp"
+            android:background="@drawable/pbtn"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/_20sdp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/_50sdp"
+            android:id="@+id/play_btn"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

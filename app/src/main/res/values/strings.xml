@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Enough movies</string>
+    <string name="balance_currency">$</string>
+    <string name="ok">Exit</string>
+    <string name="example_title">Exit confirmation</string>
+    <string name="example_subtitle">Do you want to exit ?</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="location_settings_snackbar">Device location is disabled</string>
+    <string name="location_settings_confirm">Settings</string>
+    <string name="permission_read_external_storage">Permission to read files is required</string>
+    <string name="permission_write_external_storage">Permission to write files is required</string>
+    <string name="permission_access_location">Permission to access your location is required</string>
+    <string name="permission_camera">Permission to access your camera is required</string>
+    <string name="main_downloading">Downloading…</string>
+    <string name="app_store_uri" translatable="false">https://play.google.com/store/apps/details?id=%1$s</string>
+    <string name="app_deep_link_host" translatable="false">partakefoods.com</string>
+</resources>

@@ -1,0 +1,16 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppThemeLight" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/imdb</item>
+        <item name="colorPrimaryDark">@color/imdb</item>
+        <item name="colorAccent">@color/imdb</item>
+
+    </style>
+
+    <style name="progressBarBlue" parent="@style/AppThemeLight">
+        <item name="colorAccent">@color/black</item>
+    </style>
+
+
+</resources>
